@@ -50,20 +50,6 @@ public class TbContentController {
     String scope;
   }
 
-  @RequestMapping("/oauth2")
-  public ModelAndView oauth(@RequestParam String code) {
-    BaseOAuth2ProtectedResourceDetails baseOAuth2ProtectedResourceDetails =
-        new BaseOAuth2ProtectedResourceDetails();
-    baseOAuth2ProtectedResourceDetails.setClientId("client");
-    baseOAuth2ProtectedResourceDetails.setClientSecret("123456");
-    baseOAuth2ProtectedResourceDetails.setGrantType("authorization_code");
-    AccessTokenRequest atr = new DefaultAccessTokenRequest();
-    OAuth2RestTemplate restTemplate =
-        new OAuth2RestTemplate(baseOAuth2ProtectedResourceDetails, new DefaultOAuth2ClientContext(atr));
-
-    return new ModelAndView("redirect:/?code=");
-  }
-
   /**
    * 获取资源详情
    *

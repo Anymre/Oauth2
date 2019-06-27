@@ -1,0 +1,13 @@
+server:
+  port: 8082
+security:
+  oauth2:
+    sso:
+      loginPath: /login  # µÇÂ¼Â·¾¶
+    client:
+      clientId: client
+      clientSecret: 123456
+      userAuthorizationUri: http://localhost:8081/oauth/authorize
+      access-token-uri: http://localhost:8081/oauth/token
+    resource:
+      userInfoUri: http://localhost:8082/
