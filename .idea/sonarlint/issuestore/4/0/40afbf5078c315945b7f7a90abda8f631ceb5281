@@ -1,0 +1,4 @@
+
+„squid:UselessImportCheck"TRemove this unused import 'org.springframework.boot.web.client.RestTemplateBuilder'.(—«ñûÿÿÿÿ8èà‹Ã¹-
+xsquid:UselessImportCheck"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8èà‹Ã¹-
+—squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( û§

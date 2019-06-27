@@ -1,0 +1,22 @@
+
+^squid:S1854="@Remove this useless assignment to local variable "restTemplate".(ëõ”Š8“Ï’Ã¹-
+msquid:S001160"URename this field "token_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±˜™Š
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ë±ÙÁ¹-
+qsquid:UselessImportCheck"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8«ô‘Ã¹-
+_squid:UselessImportCheck";Remove this unused import 'com.mysql.cj.protocol.x.Notice'.(Ñ…Îß
+xsquid:UselessImportCheck"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ8»Ð‰Ã¹-
+`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8ìÖ÷Â¹-
+tsquid:UselessImportCheck	"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Óà‘Ã¹-
+‚squid:UselessImportCheck"WRemove this unused import 'org.springframework.web.client.DefaultResponseErrorHandler'.(åÆÂ‡8ìÖ÷Â¹-
+…squid:UselessImportCheck"[Remove this unused import 'org.springframework.security.oauth2.client.OAuth2ClientContext'.(Ýóá+8‘ý“Ã¹-
+tsquid:S00116/"WRename this field "access_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÜ–üÿÿÿÿ
+rsquid:S001161"URename this field "expires_in" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÛêôúÿÿÿÿ
+ssquid:UselessImportCheck"CRemove this unused import 'org.springframework.util.MultiValueMap'.(·ÚÀÞùÿÿÿÿ8«ô‘Ã¹-
+tsquid:UselessImportCheck"IRemove this unused import 'org.springframework.util.LinkedMultiValueMap'.(µÂî‹8«ô‘Ã¹-
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Ë±ÙÁ¹-
+gsquid:UselessImportCheck">Remove this unused import 'org.mockito.internal.matchers.Not'.(ýƒ…‡úÿÿÿÿ
+squid:UselessImportCheck
+"ORemove this unused import 'org.springframework.http.client.ClientHttpResponse'.(æ½Á‚üÿÿÿÿ8ìÖ÷Â¹-
+Osquid:S1481="1Remove this unused "restTemplate" local variable.(ëõ”Š8“Ï’Ã¹-
+ksquid:UselessImportCheck"@Remove this unused import 'org.springframework.http.HttpEntity'.(ÂéŽÓ8«ô‘Ã¹-
+isquid:UselessImportCheck"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ
